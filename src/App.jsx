@@ -1,9 +1,15 @@
+import Button from "./components/ui/Button"
+import Links from "./pages/Links"
+import { GlobalStyle } from "./styles/GlobalStyled"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    
+    <>
+      <GlobalStyle />
+      <Links />
+    </>
   )
-
+  
+}
 export default App

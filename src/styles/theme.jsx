@@ -4,14 +4,18 @@ export const theme = {
     colors: {
         bgColor: '#1b1126',
         textColor: '#e5ccff',
-        accent: '#b076ff'
+        accent: '#fed330',
+        preto: '#000000'
     },
     fonts: {
         primary: "'Press Start 2P', monospace"
     },
     breakpoints: {
         mobile: "768px",
-        tablet: "1024px",
-        desktop: "1440px",
-    }
+    },
+    padding: {
+        small: "8px",
+        medium: "16px",
+        large: "32px"
+    },
 }
